@@ -1,0 +1,65 @@
+header {
+  background: linear-gradient(90deg, #001b2f 0%, #005695 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+
+  h1 {
+    color: #fff;
+    font-size: 30px;
+  }
+}
+
+.navHeader {
+  width: 30%;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .link {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+
+    &:hover {
+      color: aqua;
+    }
+  }
+}
+
+.barraDeBusca {
+  width: 20%;
+  border: solid #fff;
+  height: 6vh;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  margin-right: 1%;
+
+  input {
+    background-color: transparent;
+    border: none;
+    width: 68%;
+
+    &::placeholder {
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
