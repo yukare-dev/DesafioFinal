@@ -9,7 +9,23 @@
 
   h2 {
     color: #fff;
-    font-size: 30px;
+    font-size: 32px;
     width: 25%;
+  }
+}
+
+.segundaSessaoInicio {
+  font-size: 40px;
+  color: #005695;
+  padding: 87px 94px;
+
+  .caixas {
+    background-color: #0157944d;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #000;
   }
 }
