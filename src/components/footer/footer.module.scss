@@ -1,0 +1,25 @@
+.contactsFooter {
+  background-color: #005695;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 39px 30px;
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+  }
+}
+
+.rodape {
+  background-color: #232020;
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  color: #fff;
+  font-size: 15px;
+}

@@ -10,26 +10,26 @@ export default function Inicio(){
             <section className={s.primeiraSessaoInicio}>
                 <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO</h2>
             </section>
-            <section className={s.segundaSessaoInicio}>
+            <section className={s.porqueDoarInicio}>
                 <h2>Por que devo doar?</h2>
-                <article className={s.caixas}>
-                    <figure>
-                    <img src={community} alt="Imagem ilustrativa de uma comunidade" />
-                    <figcaption> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</figcaption>
-                    </figure>
-                    <figure>
-                    <img src={reading} alt="Imagem ilustrativa que representa a leitura e aprendizado" />
-                    <figcaption>Estimula o hábito da leitura e o aprendizado contínuo.</figcaption>
-                    </figure>
-                    <figure>
-                    <img src={transform} alt="Imagem ilustrativa que representa conhecimento e transformação" />
-                    <figcaption>Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas.</figcaption>
-                    </figure>
-                    <figure>
-                    <img src={balance} alt="Imagem ilustrativa de uma balança" />
-                    <figcaption>Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</figcaption>
-                    </figure>
-                </article>
+                <section className={s.cards}>
+                    <div>
+                        <img src={community} alt="Imagem ilustrativa de uma comunidade" />
+                        <p>Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
+                    </div>
+                    <div>
+                        <img src={reading} alt="Imagem ilustrativa que representa a leitura e aprendizado" />
+                        <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
+                    </div>
+                    <div>
+                        <img src={transform} alt="Imagem ilustrativa que representa conhecimento e transformação" />
+                        <p>Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas.</p>
+                    </div>
+                    <div>
+                        <img src={balance} alt="Imagem ilustrativa de uma balança" />
+                        <p>Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</p>
+                    </div>
+                </section>
             </section>
         </main>
     )
