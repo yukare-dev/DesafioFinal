@@ -5,7 +5,6 @@
   background-size: cover;
   display: flex;
   align-items: center;
-  padding-left: 6%;
 
   h2 {
     color: #fff;
@@ -19,17 +18,17 @@
   flex-direction: column;
   justify-content: space-evenly;
   height: 75vh;
-  align-items: center;
+  font-size: 40px;
 
   h2 {
-    font-size: 40px;
+    width: 30%;
     color: #005695;
-    width: 90%;
+    font-size: 40px;
+    line-height: 48px;
   }
 }
 
 .cards {
-  color: #000;
   display: flex;
   height: 40vh;
   justify-content: space-evenly;
@@ -47,6 +46,7 @@
       font-size: 22px;
       text-align: center;
       width: 95%;
+      color: #000;
     }
   }
 }

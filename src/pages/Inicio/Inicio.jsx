@@ -12,7 +12,7 @@ export default function Inicio(){
             </section>
             <section className={s.porqueDoarInicio}>
                 <h2>Por que devo doar?</h2>
-                <section className={s.cards}>
+            <section className={s.cards}>
                     <div>
                         <img src={community} alt="Imagem ilustrativa de uma comunidade" />
                         <p>Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
@@ -29,7 +29,7 @@ export default function Inicio(){
                         <img src={balance} alt="Imagem ilustrativa de uma balança" />
                         <p>Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</p>
                     </div>
-                </section>
+            </section>
             </section>
         </main>
     )

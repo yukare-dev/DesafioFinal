@@ -1,9 +1,9 @@
 .contactsFooter {
   background-color: #005695;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 39px 30px;
+  height: 15vh;
 
   nav {
     display: flex;
@@ -13,7 +13,7 @@
   }
 }
 
-.rodape {
+.copyright {
   background-color: #232020;
   text-align: center;
   padding: 20px;

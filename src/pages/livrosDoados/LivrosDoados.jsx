@@ -3,7 +3,7 @@ import s from './livrosdoados.module.scss'
 
 export default function LivrosDoados(){
     return(
-        <main>
+        <section className={s.donatePage}>
             <h2>Livros Doados</h2>
             <div className={s.donate}>
                 <img src={livroOProtagonista} alt="Imagem da capa do livro O Protagonista" />
@@ -11,6 +11,6 @@ export default function LivrosDoados(){
                 <p>Susanne Andrade</p>
                 <p>Ficção</p>
             </div>
-        </main>
+        </section>
     )
 }
