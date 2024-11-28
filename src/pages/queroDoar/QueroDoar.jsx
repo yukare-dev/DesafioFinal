@@ -13,7 +13,7 @@ export default function QueroDoar(){
                 <input type="text" placeholder='Título'/>
                 <input type="text" placeholder='Categoria'/>
                 <input type="text" placeholder='Autor'/>
-                <input type="text" placeholder='Link da Imagem'/>
+                <input type="url" placeholder='Link da Imagem'/>
                 <button type='submit' value='Doar'>Doar</button>
             </form>
         </section>

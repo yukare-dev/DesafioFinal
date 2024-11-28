@@ -1,19 +1,29 @@
-h2 {
-  font-size: 32px;
-  text-align: center;
+.donatePage {
+  padding: 29px 128px;
+  margin-bottom: 369px;
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
 }
 
-.donate {
+.donateBook {
   border: solid #005695;
   border-radius: 20px;
-  height: 26vh;
-  width: 12%;
+  height: 27vh;
+  width: 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 5px;
+
+  img {
+    padding: 26px 68px;
+  }
 
   p {
     color: #000;
+    font-size: 16px;
   }
 }
