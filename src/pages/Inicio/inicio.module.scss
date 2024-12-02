@@ -5,12 +5,12 @@
   background-size: cover;
   display: flex;
   align-items: center;
+  padding-left: 6%;
 
   h2 {
     color: #fff;
     font-size: 32px;
     width: 25%;
-    padding-left: 125px;
   }
 }
 
@@ -18,21 +18,19 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
   height: 75vh;
-  font-size: 40px;
 
   h2 {
     width: 30%;
     color: #005695;
     font-size: 40px;
-    line-height: 48px;
-    padding-left: 90px;
   }
 }
 
 .cards {
   display: flex;
-  height: 40vh;
+  height: 50vh;
   justify-content: space-evenly;
 
   div {
@@ -49,6 +47,44 @@
       text-align: center;
       width: 95%;
       color: #000;
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .primeiraSessaoInicio {
+    background-position: center;
+    height: 50vh;
+
+    h2 {
+      width: 90%;
+      font-size: 2px;
+      text-align: center;
+    }
+  }
+  .porqueDoarInicio {
+    height: 120vh;
+
+    h2 {
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  .cards {
+    height: 120vh;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+      width: 70%;
+      height: 25vh;
+
+      p {
+        font-size: 18px;
+      }
+      img {
+        width: 15%;
+      }
     }
   }
 }

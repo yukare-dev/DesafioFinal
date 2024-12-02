@@ -1,5 +1,6 @@
 .contactsFooter {
   background-color: #005695;
+  color: #fff;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -14,12 +15,28 @@
 }
 
 .copyright {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #232020;
-  text-align: center;
-  padding: 20px;
+  color: #fff;
 }
 
-p {
-  color: #fff;
-  font-size: 15px;
+@media (max-width: 780px) {
+  .contactsFooter {
+    flex-direction: column;
+
+    nav {
+      width: 60%;
+    }
+  }
+  .copyright {
+    font-size: 12px;
+
+    p {
+      width: 60%;
+      text-align: center;
+    }
+  }
 }
