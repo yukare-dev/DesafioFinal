@@ -1,5 +1,6 @@
 .primeiraSessaoInicio {
   height: 75vh;
+  width: 100%;
   background-image: url("../../assets/bgInicio.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +23,7 @@
   height: 75vh;
 
   h2 {
-    width: 30%;
+    width: 90%;
     color: #005695;
     font-size: 40px;
   }
@@ -58,7 +59,7 @@
 
     h2 {
       width: 90%;
-      font-size: 2px;
+      font-size: 28px;
       text-align: center;
     }
   }
