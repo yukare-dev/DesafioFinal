@@ -1,9 +1,9 @@
 .donatePage {
-  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  padding: 24px;
+  gap: 28px;
 
   h2 {
     font-size: 32px;
@@ -11,22 +11,34 @@
 }
 
 .donateBook {
-  height: 60vh;
-  width: 95%;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  justify-content: center;
+  gap: 24px;
+  // max-height: 100%;
+  // overflow-y: auto;
 
-  .books {
+  .booksCard {
     border: solid #005695;
     border-radius: 20px;
-    width: 18%;
-    height: 40vh;
     display: flex;
     flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
 
     div {
       text-align: center;
     }
+  }
+
+  .imgCard {
+    width: 160px;
+    height: 220px;
+    object-fit: contain;
   }
 
   p {
@@ -37,12 +49,19 @@
 
 @media (max-width: 780px) {
   .donateBook {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // flex-wrap: nowrap;
 
-    .books {
-      width: 60%;
+    .imgCard {
+      width: 120px;
+      height: 180px;
+      object-fit: contain;
+    }
+
+    .booksCard {
+      width: 100%;
     }
   }
 }

@@ -34,6 +34,12 @@ export default function QueroDoar() {
     };
 
     await axios.post("https://api-desafio-t03s.onrender.com/doar", dadosEnviar);
+    setTitulo("");
+    setCategoria("");
+    setAutor("");
+    setImage_url("");
+
+    alert("Obrigado, seu livro foi cadastrado com sucesso!");
   };
 
   return (
@@ -42,29 +48,42 @@ export default function QueroDoar() {
         Por favor, preencha o formulário com suas informações e as informações
         do Livro
       </p>
-      <form action="" className={s.styleForm}>
+      <form onSubmit={(e) => e.preventDefault()} className={s.styleForm}>
         <div>
           <img src={logoForm} alt="Imagem com ícone de um livro" />
           <h2>Informações do Livro</h2>
         </div>
-        <input type="text" placeholder="Título" onChange={capturaTitulo} />
+        <input
+          type="text"
+          placeholder="Título"
+          onChange={capturaTitulo}
+          value={titulo}
+          required
+        />
         <input
           type="text"
           placeholder="Categoria"
           onChange={capturaCategoria}
+          value={categoria}
+          required
         />
-        <input type="text" placeholder="Autor" onChange={capturaAutor} />
+        <input
+          type="text"
+          placeholder="Autor"
+          onChange={capturaAutor}
+          value={autor}
+          required
+        />
         <input
           type="url"
           placeholder="Link da Imagem"
           onChange={capturaImage_url}
+          value={image_url}
+          required
         />
-        <input
-          type="submit"
-          value="Doar"
-          className={s.buttonDoar}
-          onClick={enviarDados}
-        />
+        <button type="submit" className={s.buttonDoar} onClick={enviarDados}>
+          Doar
+        </button>
       </form>
     </section>
   );
